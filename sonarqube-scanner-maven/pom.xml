@@ -23,7 +23,7 @@
     <sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
     
     <sonar.java.binaries>${project.build.directory}/**/target/classes</sonar.java.binaries>
-    <!-- <sonar.java.libraries>**/target</sonar.java.libraries> -->
+    <sonar.java.libraries>${project.build.directory}/**/target</sonar.java.libraries>
     
   </properties>
 
