@@ -22,7 +22,8 @@
 
     <sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
     
-    <sonar.java.libraries>**/target</sonar.java.libraries>
+    <sonar.java.binaries>**/target/classes</sonar.java.binaries>
+    <!-- <sonar.java.libraries>**/target</sonar.java.libraries> -->
     
   </properties>
 
